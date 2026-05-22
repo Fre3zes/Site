@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="FuckingChoppa" />
+  <title>FuckingChoppa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="scene">
+    <div class="orb orb--a"></div>
+    <div class="orb orb--b"></div>
+    <div class="orb orb--c"></div>
+    <div class="grain"></div>
+  </div>
+
+  <main class="stage">
+    <article class="card" id="card">
+      <div class="card__glow"></div>
+
+      <div class="avatar-wrap">
+        <div class="avatar-ring"></div>
+        <img
+          class="avatar"
+          id="avatar"
+          src=""
+          alt="FuckingChoppa"
+          draggable="false"
+        />
+      </div>
+
+      <div class="identity">
+        <h1 class="identity__name">Choppa</h1>
+        <p class="identity__handle">@FuckingChoppa</p>
+      </div>
+
+      <nav class="links" aria-label="Social links">
+        <a class="link-btn link-btn--tg" href="https://t.me/FuckingChoppa" target="_blank" rel="noopener noreferrer" data-label="Telegram">
+          <span class="link-btn__icon"><i class="fab fa-telegram"></i></span>
+          <span class="link-btn__text">Telegram</span>
+          <span class="link-btn__arrow"><i class="fas fa-arrow-up-right-from-square"></i></span>
+        </a>
+        <a class="link-btn link-btn--yt" href="https://youtube.com/@fre3zes" target="_blank" rel="noopener noreferrer" data-label="YouTube">
+          <span class="link-btn__icon"><i class="fab fa-youtube"></i></span>
+          <span class="link-btn__text">YouTube</span>
+          <span class="link-btn__arrow"><i class="fas fa-arrow-up-right-from-square"></i></span>
+        </a>
+        <a class="link-btn link-btn--ds" href="https://discord.gg/fre3zes" target="_blank" rel="noopener noreferrer" data-label="Discord">
+          <span class="link-btn__icon"><i class="fab fa-discord"></i></span>
+          <span class="link-btn__text">Discord</span>
+          <span class="link-btn__arrow"><i class="fas fa-arrow-up-right-from-square"></i></span>
+        </a>
+        <a class="link-btn link-btn--sp" href="https://open.spotify.com/user/317kmfqkqfuo6tkjd7no7blce7i4" target="_blank" rel="noopener noreferrer" data-label="Spotify">
+          <span class="link-btn__icon"><i class="fab fa-spotify"></i></span>
+          <span class="link-btn__text">Spotify</span>
+          <span class="link-btn__arrow"><i class="fas fa-arrow-up-right-from-square"></i></span>
+        </a>
+      </nav>
+    </article>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
